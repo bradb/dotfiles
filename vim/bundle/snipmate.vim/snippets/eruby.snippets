@@ -1,0 +1,9 @@
+snippet sff
+	<%= simple_form_for @${1:thing} do |f| %>
+		<%= f.input :${2:attr_name} %>
+		<%= f.button :submit %>
+	<% end %>
+snippet fi
+	<%= f.input :${1:field} %>
+snippet fs
+	<%= f.submit :${1:submit} %>
